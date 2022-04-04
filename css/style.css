@@ -51,7 +51,7 @@ section figure {
 /* ---------------------------------------------------------------------------------- */
 
 
-/* Stile terza section (mark) */
+/* Stile terza e sesta section  (mark) */
 section mark {
     background-color: yellow;
 }
@@ -86,6 +86,34 @@ td {
 
 .row-color  {
     background-color: #B1E5F2;
+}
+
+/* ---------------------------------------------------------------------------------- */
+
+
+/* stile footer  */
+
+
+footer {
+    margin-top: 35px;
+}
+
+.footer-img {
+    height: 200px;
+    background-repeat: no-repeat;
+}
+
+.footer-img h3 {
+    color: #fff;
+    padding-top: 10px;
+}
+
+.one {
+    background-image: url("../img/monitor.jpg");
+}
+
+.two {
+    background-image: url("../img/graph.jpg");
 }
 
 /* ---------------------------------------------------------------------------------- */
