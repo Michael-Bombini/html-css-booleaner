@@ -1,41 +1,91 @@
 body {
     margin : 0 ;
+
 }
 
 
 
-header {
-    background-color: #4EA0FF;
-    background-image: url("../img/pattern.png");
-    height: 180px;
-}
+/* Stile dell'header (sfondo , immagine e colore di sfondo con il logo) */
+    header {
+        background-color: #4EA0FF;
+        background-image: url("../img/pattern.png");
+        height: 180px;
+    }
 
-header img {
-    width: 250px;
-    margin-top: 90px;
+    header img {
+        width: 250px;
+        margin-top: 90px;
+        margin-left: 5px;
+    }
+/* ---------------------------------------------------------------------------------- */
+
+/* Stile prima section (info , e vari under-title) */
+    section .title {
+        font-size: 2.5em;
+        margin-bottom: 0;
+    }
+
+
+    .under-title {
+        color: #818181;
+        font-size: 20px;
+        margin-top: 0;
+    }
+
+
+    .under-title a {
+        color: #2DAEE6;
+        text-decoration: none;
+        font-weight: 800;
+    }
+
+/* ---------------------------------------------------------------------------------- */
+
+
+/* Stile seconda section (figure (immagini e caption) ) */
+
+section figure {
     margin-left: 5px;
 }
 
+/* ---------------------------------------------------------------------------------- */
 
-.title {
-    font-size: 2.5em;
-    margin-bottom: 0;
+
+/* Stile terza section (mark) */
+section mark {
+    background-color: yellow;
+}
+
+/* ---------------------------------------------------------------------------------- */
+
+
+/* stile quarta section (lista non ordinata (ul) )  */
+section ul {
+    padding-left: 20px;
+}
+
+/* ---------------------------------------------------------------------------------- */
+
+/* stile quinta section (table) */
+
+table {
+    text-align: left;
 }
 
 
-.under-title {
-    color: #818181;
-    font-size: 20px;
-    margin-top: 0;
+thead {
+    background-color: #20A9E5;
+    color: #fff;
+ 
 }
 
 
-.under-title a {
-    color: #2DAEE6;
-    text-decoration: none;
-    font-weight: 800;
+td {
+    width: 10%;
 }
 
-figure {
-    margin-left: 5px;
+.row-color  {
+    background-color: #B1E5F2;
 }
+
+/* ---------------------------------------------------------------------------------- */
